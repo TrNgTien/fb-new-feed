@@ -1,29 +1,5 @@
-# Hi there! We are Clone Team 👋
+# Facebook New Feed Demo 👋
 
-You are the ![](https://visitor-badge.glitch.me/badge?page_id=TrNgTien.Facebook_Clone)! Thanks for your visit!
-
-## Contributor
-Here is our team, you can connect us through our Linkedin:
-- [Tran Ngoc Tien (Team Leader)](https://www.linkedin.com/in/trngtien/)
-- [Duong Thien Phuc (Front-end Developer)](https://www.linkedin.com/in/phucduongthien/)
-- [Nguyen Quoc viet (Back-end Developer)](https://www.linkedin.com/in/viet-nguyen-4b6391195/)
-
-## 🛠 Skills Applied
-Programming Languages: Javascript, Typescript.
-
-Front-end: React.JS, SCSS, Redux/ Redux Toolkit, Axios, Socket.io.
-
-Back-end:  Node.JS, Express.JS, JWT, Socket.io.
-
-Database: MongoDB.
-
-Storage: AWS S3.
-
-Cloud Server: AWS EC2.
-
-IDE Tool: Visual Studio Code.
-
-API Testing: Postman.
 
 ## 📸Screenshots
 
@@ -41,7 +17,6 @@ API Testing: Postman.
 ![image](https://user-images.githubusercontent.com/66483590/172652293-85c1ece9-07f7-43cf-b80e-cc93b4ca61d2.png)
 
 
-
 ## 🖌️ Post Features
 
 <h3> Edit caption's own post</h3>
@@ -53,7 +28,7 @@ API Testing: Postman.
 ![Create Post](https://user-images.githubusercontent.com/66483590/172658364-7b8419ed-d685-4197-a87a-0103bbdebae0.png)
 
 
-## 🎨 Profile Page 
+## 🎨 Profile Page
 
 <h3>Own Profile Page</h3>
 
@@ -90,27 +65,10 @@ https://user-images.githubusercontent.com/66483590/172656664-04a3bc46-e93e-43ed-
 ## Features
 
 - Login/ Register/ Logout.
-- Post to your NewsFeed and your wall. 
+- Post to your NewsFeed and your wall.
 - Delete Own Post.
 - See your friends' post on NewsFeed.
 - Profile Page/ Edit Profile.
 - Add Friends.
 - Remember login.
 - Redirect User to Login Page if they try to enter our route from search bar.
-
-## Acknowledgements
-- [React.JS](https://reactjs.org/)
-- [axios](https://axios-http.com/docs/intro)
-- [Redux](https://redux.js.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Node.JS](https://nodejs.org/en/) 
-- [Express.JS](https://expressjs.com/)
-- [Socket.io](https://socket.io/)
-- [AWS](https://aws.amazon.com/)
-- [CloudFlare](https://dash.cloudflare.com/login)
-- [Nginx](https://www.nginx.com/)
-
-## Future Features
-- Add Story.
-- Chatting.
-- Dating.
