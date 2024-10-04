@@ -1,0 +1,53 @@
+@import "@styles/mixin.scss";
+
+.feeds-container {
+	margin-top: 5%;
+	.body-container {
+		display: flex;
+		.body-feeds {
+			width: 50%;
+			margin-left: 25%;
+		}
+		.list-friends {
+			position: fixed;
+			right: 0;
+			width: 20%;
+			height: 100vh;
+			.list-friends__header {
+				margin-bottom: 1rem;
+				display: flex;
+				justify-content: space-between;
+			}
+			.list-friends__funtion-btn {
+				display: flex;
+			}
+			.list-friends__body-item {
+				margin: 0.1rem;
+				padding: 0.5rem;
+				display: flex;
+				align-items: center;
+				border-radius: 10px;
+				cursor: pointer;
+				&:hover{
+					background-color: var(--background-color-btn);
+				}
+				.wrapper-avatar {
+					position: relative;
+					.avatar-friend {
+						@include avatarSize;
+						margin-right: 10px;
+					}
+					.active-point {
+						width: 15px;
+						height: 15px;
+						border-radius: 50%;
+						background-color: var(--active-color);
+						position: absolute;
+						bottom: 0;
+						right: 8px;
+					}
+				}
+			}
+		}
+	}
+}

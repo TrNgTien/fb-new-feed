@@ -1,0 +1,37 @@
+.comments-zone {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+
+	.comments-zone__img-avatar {
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+		border-radius: 30px;
+		cursor: pointer;
+	}
+	.wrapper-comment__bubble {
+		background-color: #f0f2f5;
+		padding: 5px 1rem;
+		border-radius: 20px;
+		& > p {
+			font-size: 1rem;
+		}
+		& > p:first-child {
+			font-weight: 600;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+	.comments-zone__edit-comment {
+		border-radius: 50%;
+		margin-left: 10px;
+		padding: 5px 8px;
+		&:hover {
+			cursor: pointer;
+			background-color: rgb(214, 214, 214);
+			border-radius: 50%;
+		}
+	}
+}
